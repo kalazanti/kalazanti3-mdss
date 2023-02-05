@@ -1,7 +1,9 @@
 // You can put your custom (S)CSS code here.
 // You can use any variable declared in the other configuration files
 @mixin custom-generic {
-  // Styles here will be applied to all media types
+  .headerify {
+    font-size: nth($heading-font-size, 2);
+  }
 }
 
 @mixin custom-screen {
