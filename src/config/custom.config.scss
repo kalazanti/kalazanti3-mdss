@@ -1,0 +1,33 @@
+// You can put your custom (S)CSS code here.
+// You can use any variable declared in the other configuration files
+@mixin custom-generic {
+  header {
+    font-weight: 500;
+  }
+
+  blockquote {
+    color: $root-font-color;
+    font-size: $root-font-size;
+    line-height: $root-line-height;
+    border-left: 5px solid $color-primary;
+    padding: 0 $spacing-large;
+    margin: $spacing-huge;
+  }
+
+  h1,
+  h2 {
+    text-transform: none;
+  }
+}
+
+@mixin custom-screen {
+  // Styles here will be applied only to screen
+}
+
+@mixin custom-print {
+  // Styles here will be applied only to print
+}
+
+@mixin custom-page {
+  // Styles here will be applied in print to the @page directive
+}
