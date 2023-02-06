@@ -4,6 +4,14 @@
   .headerify {
     font-size: nth($heading-font-size, 2);
   }
+
+  .hidden {
+    display: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @mixin custom-screen {
