@@ -12,6 +12,14 @@
   img {
     max-width: 100%;
   }
+
+  figure {
+    max-width: 50%;
+
+    &figcaption{
+      text-align: center;
+    }
+  }
 }
 
 @mixin custom-screen {
