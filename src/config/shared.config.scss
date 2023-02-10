@@ -14,6 +14,13 @@ $color-brown          : hsl(20, 40%, 45%);
 $color-primary        : hsl(215, 30%, 45%);
 $color-accent         : hsl(215, 10%, 50%);
 
+$color-cst            : hsl(15, 100%, 74%);
+$color-st             : $color-yellow;
+$color-f              : $color-brown;
+$color-cs             : $color-green;
+$color-kcs            : $color-blue;
+$color-fk             : $color-gray-light;
+
 // Fonts
 $font-serif           : "Noticia Text", "Cambria", "Times New Roman", "Times", serif;
 $font-sans-serif      : "Fira Sans Extra Condensed", "Arial Narrow", "HelveticaNeue", sans-serif;
