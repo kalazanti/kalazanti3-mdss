@@ -1,3 +1,17 @@
+// Hungarian Scout Association colors
+$colors-mcssz: (
+  "trendy-green"        : hsl(88, 63%, 44%),
+  "wosm-purple"         : hsl(271, 49%, 36%),
+  "orange"              : hsl(36, 100%, 48%),
+
+  // Age groups
+  "kcs-yellow"          : hsl(52, 100%, 50%),
+  "grass-green"         : hsl(133, 74%, 32%),
+  "light-blue"          : hsl(203, 100%, 37%),
+  "rover-gray"          : hsl(199, 7%, 55%),
+  "chestnut-brown"      : hsl(15, 57%, 23%),
+);
+
 // Colors
 $color-white          : hsl(0, 0%, 100%);
 $color-gray-light     : hsl(215, 25%, 95%);
