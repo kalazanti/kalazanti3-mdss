@@ -30,7 +30,7 @@ $enable-container-card            : true;
     "gray"    : $color-gray-medium,
 
     "lazac"   : hsl(15, 80%, 70%),    
-    "sarga"   : map.get($colors-mcssz, "kcs-yellow"),  
+    "sarga"   : $color-yellow,  
     "barna"   : map.get($colors-mcssz, "chestnut-brown"),
     "szurke"  : map.get($colors-mcssz, "rover-gray"),   
     "zold"    : map.get($colors-mcssz, "grass-green"),   
