@@ -1,5 +1,3 @@
-@use "sass:map";
-
 // MDSS Extras
 $enable-auto-numbering            : true;
   $auto-numbering-headings        : ();
@@ -25,17 +23,16 @@ $enable-container-columns         : true;
   $container-columns-max          : 4;
 $enable-container-card            : true;
   $container-card-list            : (
-    "primary" : $color-primary,
-    "accent"  : $color-accent,
-    "gray"    : $color-gray-medium,
+    "primary"  : $color-primary,
+    "accent"   : $color-accent,
+    "gray"     : $color-gray-medium,
 
-    "lazac"   : hsl(15, 80%, 70%),    
-    "sarga"   : $color-yellow,  
-    "barna"   : map.get($colors-mcssz, "chestnut-brown"),
-    "szurke"  : map.get($colors-mcssz, "rover-gray"),   
-    "zold"    : map.get($colors-mcssz, "grass-green"),   
-    "kek"     : map.get($colors-mcssz, "light-blue"),   
-    "fk"      : $color-gray-light ,    
+    "salmon"   : salmon,    
+    "yellow"   : $color-yellow,  
+    "brown"    : $color-brown,
+    "green"    : $color-green,   
+    "blue"     : $color-blue,   
+    "lightgray": $color-gray-light ,    
   );
 $enable-container-sticky          : true;
 
