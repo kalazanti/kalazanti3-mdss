@@ -40,25 +40,3 @@ $print-only-root      : false;
 
 // Transition
 $transition-duration  : 250ms;
-
-// Expose some values to CSS
-:root {
-  --color-primary: #{$color-primary};
-  --color-accent: #{$color-accent};
-  --color-gray-light: #{$color-gray-light};
-  --color-gray-medium: #{$color-gray-medium};
-  --color-gray-dark: #{$color-gray-dark};
-  --color-black: #{$color-black};
-  --color-red: #{$color-red};
-  --color-green: #{$color-green};
-  --color-blue: #{$color-blue};
-  --color-yellow: #{$color-yellow};
-  --color-purple: #{$color-purple};
-  --color-violet: #{$color-violet};
-  --color-brown: #{$color-brown};
-  --color-white: #{$color-white};
-
-  --spacing-small: #{$spacing-small};
-  --spacing-medium: #{$spacing-medium};
-  --spacing-large: #{$spacing-large};
-}
